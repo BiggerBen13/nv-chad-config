@@ -17,7 +17,7 @@ local lspconfig = require "lspconfig"
 --   }
 -- }
 
-local servers = { "html", "cssls", "clangd", "denols" }
+local servers = { "html", "cssls", "clangd", "denols", "typst_lsp" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {

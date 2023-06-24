@@ -86,5 +86,9 @@ local plugins = {
       table.insert(M.sources, { name = "crates" })
     end,
   },
+  {
+    "xuhdev/vim-latex-live-preview",
+    ft = "tex",
+  },
 }
 return plugins
